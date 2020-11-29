@@ -74,7 +74,11 @@ WSLでは/mnt/c/で、windowsとwsl間でファイル共有するが、動作が
 
 WSL2上のUbuntu18内で
 ~~~
-code ~/your_workspace
+cd ~
+mkdir git
+cd git
+cit clone https://github.com/ShowTakano/WSL2_NGC_Docker.git
+code ./WSL2_NGC_Docker
 ~~~
 でVSCodeがRemote-WSLで起動する
 
